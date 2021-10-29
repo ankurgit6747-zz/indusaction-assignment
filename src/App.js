@@ -41,7 +41,7 @@ function App() {
         <button style={{width:'100px', background:'red'}} onClick={handleDraft}>Save Draft</button>
         <button style={{width:'100px', background:'green'}} onClick={() => setList([text, ...list])} >Add</button>
         <div>
-          <span>Number Of totalcharacters : {totalcharacters}</span>
+          <span>Number Of total characters : {totalcharacters}</span>
         </div>
         <div>
           <span>Number of Words : {totalword}</span>
